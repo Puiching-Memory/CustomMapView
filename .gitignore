@@ -1,7 +1,10 @@
 *.build/
 *.dist/
+*.onefile-build/
 node_modules/
 tiles/
 build/
 *.exe
 cache/
+web/
+__pycache__/
