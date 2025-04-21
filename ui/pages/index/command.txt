@@ -1,0 +1,3 @@
+https://gdal.org/en/stable/download.html
+
+gdal2tiles -p raster -z 1-6 --processes=8 -w none q.png tiles/
