@@ -1,5 +1,5 @@
 {
-    "name" : "ui",
+    "name" : "gpnumcer",
     "appid" : "__UNI__D2DC4F0",
     "description" : "",
     "versionName" : "1.0.0",
@@ -72,6 +72,12 @@
     "h5" : {
         "router" : {
             "base" : "./"
+        },
+        "title" : "gpnumcer",
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
         }
     }
 }
