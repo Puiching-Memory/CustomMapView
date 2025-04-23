@@ -1,7 +1,6 @@
 <template>
 	<view class="content">
 		<view id="map" class="map"></view>
-		<uni-popup ref="popup" border-radius="10px 10px 0 0">底部弹出 Popup 自定义圆角</uni-popup>
 	</view>
 </template>
 
