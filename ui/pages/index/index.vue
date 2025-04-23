@@ -29,7 +29,7 @@
 			//添加图层,底图
 			var baseLayer = L.tileLayer('/static/tiles/{z}/{x}/{y}.png', {
 				minZoom: 3,
-				maxZoom: 5, // 根据生成的层级调整
+				maxZoom: 8, // 根据生成的层级调整
 				tms: true, // 使用 TMS 瓦片坐标系统（Y轴反转）
 				attribution: 'GPNU MCER',
 				noWrap: true,
@@ -37,11 +37,11 @@
 
 			// 添加图层,标记
 			var markLayer = L.layerGroup([
-				L.marker([-64.5, 0.0]).setIcon(customIcon).bindPopup(
+				L.marker([-59.0, -6.0]).setIcon(customIcon).bindPopup(
 					'<h1>图书馆</h1><p><img src="/static/lib.png" width="100%" height="auto"></img><p>广东技术师范大学图书馆前身是原广东民族学院图书馆，创建于1957年。2002年和2005年分别与原广东省机械学校、原广东省经济管理干部学院和原广东省财贸管理干部学院图书馆合并，目前图书馆已形成“一校五馆”发展格局，馆舍总建筑面积约为8万平方米。'
 					),
-				L.marker([-58.0, 7.5]).setIcon(customIcon).bindPopup('第二教学楼'),
-				L.marker([-80.0, -20.0]).setIcon(customIcon).bindPopup('正门'),
+				L.marker([-50.0, -12.0]).setIcon(customIcon).bindPopup('第二教学楼'),
+				L.marker([-79.0, 10.0]).setIcon(customIcon).bindPopup('正门'),
 			]);
 
 			// 初始化地图
@@ -78,6 +78,6 @@
 	.map {
 		width: 100%;
 		height: 100vh;
-		background: #5f5a56;
+		background: #3b3b3b;
 	}
 </style>

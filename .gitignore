@@ -9,3 +9,4 @@ cache/
 web/
 __pycache__/
 uni_modules/
+*.zip
